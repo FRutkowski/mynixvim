@@ -18,7 +18,15 @@
 
     lsp.servers = {
       svelte.enable = true;
-
+      volar = {
+        enable = true;
+        filetypes = [
+          "vue"
+          "typescript"
+          "javascript"
+        ];
+        extraOptions.init_options.vue.hybridMode = false;
+      };
       eslint = {
         enable = true;
         filetypes = [
