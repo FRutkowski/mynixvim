@@ -125,9 +125,9 @@
             end, { "i", "s" })
           '';
 
-          "<C-n>" = # lua
+          "<C-j>" = # lua
             "cmp.mapping(cmp.mapping.select_next_item())";
-          "<C-p>" = # lua
+          "<C-k>" = # lua
             "cmp.mapping(cmp.mapping.select_prev_item())";
           "<C-e>" = # lua
             "cmp.mapping.abort()";

@@ -6,8 +6,9 @@
       formatters_by_ft = {
         javascript = [ "eslint_d" ];
         javascriptreact = [ "eslint_d" ];
-        typescript = [ "eslint_d" ];
         typescriptreact = [ "eslint_d" ];
+        vue = [ "biome" ];
+        typescript = [ "biome" ];
         svelte = [ "eslint_d" ];
       };
 
@@ -20,12 +21,13 @@
       svelte.enable = true;
       volar = {
         enable = true;
+        tslsIntegration = true;
         filetypes = [
           "vue"
           "typescript"
           "javascript"
         ];
-        extraOptions.init_options.vue.hybridMode = false;
+        # extraOptions.init_options.vue.hybridMode = false;
       };
       eslint = {
         enable = true;
