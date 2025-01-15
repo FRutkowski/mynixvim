@@ -22,17 +22,6 @@
             "--stdio"
           ];
         };
-        tailwindcss = {
-          enable = true;
-          # cmd = [
-          #   "${pkgs.tailwindcss-language-server}/bin/tailwindcss-language-server"
-          #   "--stdio"
-          # ];
-          # filetypes = [
-          #   "html"
-          #   "vue"
-          # ];
-        };
       };
 
       enabledServers = [
