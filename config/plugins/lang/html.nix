@@ -24,14 +24,14 @@
         };
         tailwindcss = {
           enable = true;
-          cmd = [
-            "${pkgs.tailwindcss-language-server}/bin/tailwindcss-language-server"
-            "--stdio"
-          ];
-          filetypes = [
-            "html"
-            "vue"
-          ];
+          # cmd = [
+          #   "${pkgs.tailwindcss-language-server}/bin/tailwindcss-language-server"
+          #   "--stdio"
+          # ];
+          # filetypes = [
+          #   "html"
+          #   "vue"
+          # ];
         };
       };
 

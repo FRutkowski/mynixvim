@@ -79,7 +79,7 @@
           action = "find_files hidden=true";
           options.desc = "Find project files";
         };
-        "<leader>/" = {
+        "<leader>sg" = {
           action = "live_grep";
           options.desc = "Grep (root dir)";
         };
