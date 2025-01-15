@@ -22,6 +22,12 @@
             "--stdio"
           ];
         };
+        tailwindcss = {
+          enable = true;
+          package = pkgs.tailwindcss-language-server;
+          filetypes = ["html", "vue"];
+          autostart = true;
+        };
       };
 
       enabledServers = [
