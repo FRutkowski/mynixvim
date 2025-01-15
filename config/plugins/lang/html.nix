@@ -24,7 +24,7 @@
         };
         tailwindcss = {
           enable = true;
-          package = pkgs.tailwindcss-language-server;
+          # package = pkgs.tailwindcss-language-server;
           filetypes = [
             "html"
             "vue"
