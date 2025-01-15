@@ -25,18 +25,13 @@
         tailwindcss = {
           enable = true;
           cmd = [
-            "pnpm"
-            "exec"
-            "tailwindcss-language-server"
+            "${pkgs.tailwindcss-language-server}/bin/tailwindcss-language-server"
             "--stdio"
           ];
           filetypes = [
             "html"
             "vue"
           ];
-
-          # package = pkgs.tailwindcss-language-server;
-          # autostart = true;
         };
       };
 
