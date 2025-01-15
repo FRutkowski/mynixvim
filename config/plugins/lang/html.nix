@@ -24,11 +24,18 @@
         };
         tailwindcss = {
           enable = true;
+          cmd = [
+            "pnpm"
+            "exec"
+            "tailwindcss-language-server"
+            "--stdio"
+          ];
+          filetypes = [
+            "html"
+            "vue"
+          ];
+
           # package = pkgs.tailwindcss-language-server;
-          # filetypes = [
-          #   "html"
-          #   "vue"
-          # ];
           # autostart = true;
         };
       };
