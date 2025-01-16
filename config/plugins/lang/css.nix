@@ -22,13 +22,13 @@
         ];
       };
 
-      tailwindcss = {
-        enable = true;
-        # cmd = [
-        #   (lib.getExe pkgs.tailwindcss-language-server)
-        #   "--stdio"
-        # ];
-      };
+      # tailwindcss = {
+      #   enable = true;
+      # cmd = [
+      #   (lib.getExe pkgs.tailwindcss-language-server)
+      #   "--stdio"
+      # ];
+      # };
     };
   };
 }
